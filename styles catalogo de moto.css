@@ -343,7 +343,9 @@ footer .last{
 /*Responsive adjustmeents */
 @media (max-width: 576px){
     nav ul li{
-        display: none;
+        position: relative;
+        left: -25px;
+        
     }
     .header-block img{
         width: 40%;
@@ -354,7 +356,7 @@ footer .last{
     .header-block .text{
         position: relative;
         bottom: -10%;
-        left: 28%;
+        left: 25%;
     }
     section.catalogo{
         padding: 10px;
